@@ -1,0 +1,40 @@
+# Node modules en cualquier carpeta o subcarpeta
+**/node_modules/
+
+# Archivos de logs
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Carpeta de build de NestJS y Node.js
+**/dist/
+
+# Archivos de entorno con variables sensibles
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Archivos temporales o caches
+**/.cache/
+**/.next/
+**/.turbo/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Editor de VSCode
+.vscode/
+
+# Archivos temporales de sistema
+*.swp
+*~
+
+# Archivos de cobertura de tests
+**/coverage/
+
+# Otros
+*.tgz
