@@ -1,0 +1,23 @@
+h1 {
+    color:rgb(186, 94, 144);
+}
+
+.tipo_clase{
+    color: brown;
+}
+
+#selector_id{
+    color:aqua;
+}
+
+* {
+    margin: 0;
+}
+
+div p{
+    color: green;
+}
+
+ul > li {
+    color:chocolate;
+}
