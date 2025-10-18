@@ -1,0 +1,17 @@
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
+    background-color: rgb(13, 194, 91);
+    padding: 20px;
+}
+.item{
+    background: green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
