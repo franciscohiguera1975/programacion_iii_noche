@@ -1,0 +1,32 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    padding: 10px;
+    font-size: 10vw;
+}
+.menu div {
+    margin: 10px 0;
+}
+
+@media(min-width: 601px) and (max-width: 1024px){
+    .menu {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px 30px;
+    }
+    .menu div{
+        margin: 0 10px;
+    }
+}
+@media (min-width: 1025px){
+    .menu {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0 20px;
+    }
+    .menu div{
+        margin: 0 20px;
+    }
+}
