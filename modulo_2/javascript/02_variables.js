@@ -31,6 +31,6 @@ const persona = {
     edad: 30
 }
 console.log("Tipo Objeto ", typeof(persona));
-console.log(pesona);
+console.log(persona);
 console.log(persona.edad);
 console.log(persona.nombre);
