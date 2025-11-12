@@ -1,0 +1,98 @@
+# ============================================
+# GLOBAL / NODE / ENVIRONMENT
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Lock files (optional: keep one type if you use it consistently)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.*.local
+
+# Dist / Build outputs
+dist/
+build/
+out/
+.next/
+.cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.log
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# REACT SPECIFIC (Frontend)
+# ============================================
+# React build output (create-react-app, Vite, etc.)
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Testing
+coverage/
+*.coverage
+*.lcov
+
+# Local development tools
+frontend/.vite/
+frontend/.next/
+frontend/.parcel-cache/
+frontend/node_modules/
+
+# ============================================
+# NESTJS SPECIFIC (Backend)
+# ============================================
+# Compiled output
+backend/dist/
+backend/out/
+backend/.env
+backend/.env.local
+backend/.env.*.local
+
+# TypeScript build info
+backend/tsconfig.tsbuildinfo
+
+# Logs
+backend/logs/
+*.log
+
+# ============================================
+# MONOREPO / WORKSPACE CONFIGS
+# ============================================
+# Ignore local workspace tools
+.nx/
+turbo/
+.eslintcache
+*.tsbuildinfo
+
+# ============================================
+# TESTING / COVERAGE (common)
+# ============================================
+coverage/
+test-results/
+jest-html-reporters-*.html
+reports/
